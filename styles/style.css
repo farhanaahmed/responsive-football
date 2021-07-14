@@ -65,6 +65,7 @@ body{
     margin-left: 180px;
     margin-top: 70px;
     margin-right: 210px;
+    margin-bottom: 170px;
 }
 
 .player{
@@ -84,7 +85,7 @@ body{
 }
 .player-title{
     color:#18191F;
-    font-size: 28px;
+    font-size: 27px;
     margin-bottom: 10px;
     margin-top: 16px;
 
