@@ -26,6 +26,7 @@ body{
     color:#FFFFFF;
     margin-left: 156px;
     margin-bottom: 17px;
+    margin-top: 00px;
 }
 .link-button{
     text-decoration: none;
@@ -70,7 +71,7 @@ body{
 
 .player{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -95,5 +96,115 @@ body{
     font-size: 15px;
     margin-top: 0;
     font-weight: 400;
+}
+
+/* ----------------- Footer Styles -----------------  */
+
+.footnote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.social{
+    margin-left: 30px;
+}
+.fab{
+    color:#969BAB;
+    margin: 0px 14px;
+    font-size: 28px;
+}
+.footer-info{
+    color:#000000;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+.footer-info p{
+    margin-top: 0;
+}
+
+/* ------------------------------
+         Media Queries 
+   ------------------------------*/
+
+/* ---- Mobile Devices ---- */
+
+@media only screen and  (max-width: 688px) {
+    /* Top Banner Styles  */
+    .top-banner{
+        width: 100%;
+        height: 695px;
+        background-color: #2D25A0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .top-title{
+        font-size: 36px;
+        font-weight: 900;
+        color:#FFFFFF;
+        margin-left: 16px;
+        margin-right: 66px;
+        margin-bottom: 30px;
+        margin-top: 112px;
+    }
+    .link-button{
+        margin-left: 19px;
+
+    }
+    .top-banner .top-photo img{
+
+        width: 329px;
+        height: 259px;
+        margin-top: 55px;
+        margin-bottom: 60px;
+    }
+    /* Players Styles  */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 24px;
+        margin-left: 15px;
+        margin-top: 47px;
+        margin-right: 15px;
+        margin-bottom: 60px;
+    }
     
+    .player{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* Footer Styles  */
+    
+    .footer-img img{
+        width: 265px;
+        height: 63px;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    .social, .footer-info{
+        margin-left: 40px;
+        margin-right: 45px;
+    }
+ 
+}
+
+/* Tablet Devices  */
+
+@media only screen and (min-width: 689px) and (max-width:991px){
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 100px;
+        margin-right: 180px;
+    }
+
 }
