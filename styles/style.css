@@ -204,7 +204,7 @@ body{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left: 100px;
-        margin-right: 180px;
+        margin-right: 150px;
     }
 
 }
