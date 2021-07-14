@@ -189,10 +189,6 @@ body{
         margin-left: 30px;
         margin-right: 50px;
     }
-    .social, .footer-info{
-        margin-left: 40px;
-        margin-right: 45px;
-    }
  
 }
 
@@ -200,11 +196,33 @@ body{
 
 @media only screen and (min-width: 689px) and (max-width:991px){
 
+    /* Top Banner Styles  */
+    .top-banner{
+        height: 695px;
+
+    }
+    .top-title{
+        font-size: 45px;
+        margin-left: 60px;
+    }
+    .link-button{
+        margin-left: 60px;
+    }
+    .top-banner .top-photo img{
+
+        width: 85%;
+        padding-left: 60px;
+        padding-top: 60px;
+    }
+  
+    /* Players Styles  */
     .players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left: 100px;
-        margin-right: 150px;
+        margin-right: 100px;
+        margin-bottom: 60px;
     }
+
 
 }
